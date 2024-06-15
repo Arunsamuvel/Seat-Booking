@@ -10,42 +10,48 @@
     <main class="main">
       <h1 class="main-heading">Form Validation</h1>
 
-      <form action="" class="main-form">
+      <form action="#" class="main-form" method="post" id="registrationForm">
         <div class="form-control">
-          <label for="firstName" class="label-form">FirstName</label>
+          <label for="firstName" class="label-form">First Name</label>
           <input
             type="text"
             id="firstName"
             name="firstName"
             class="form-input"
           />
-          <label for="lastName" class="label-form">LastName</label>
+
+          <label for="lastName" class="label-form">Last Name</label>
           <input type="text" id="lastName" name="lastName" class="form-input" />
-          <label for="Email" class="label-form">Email</label>
-          <input type="Email" id="Email" name="Email" class="form-input" />
-          <label for="Password" class="label-form">Password</label>
+
+          <label for="email" class="label-form">Email</label>
+          <input type="email" id="email" name="email" class="form-input" />
+
+          <label for="password" class="label-form">Password</label>
           <input
-            type="Password"
-            id="Password"
-            name="Password"
+            type="password"
+            id="password"
+            name="password"
             class="form-input"
           />
-          <label for="Confirm-Password" class="label-form"
+
+          <label for="confirmPassword" class="label-form"
             >Confirm Password</label
           >
           <input
-            type="Password"
-            id="Confirm-Password"
-            name="Confirm-Password"
+            type="password"
+            id="confirmPassword"
+            name="confirmPassword"
             class="form-input"
           />
-          <!-- <label for="Password" class="label-form">Stay loged in</label>
+
+          <label for="stayLoggedIn" class="label-form">Stay Logged In</label>
           <input
             type="checkbox"
-            id="Password"
-            name="Password"
+            id="stayLoggedIn"
+            name="stayLoggedIn"
             class="form-input"
-          /> -->
+          />
+
           <input
             type="submit"
             name="submit"
@@ -55,5 +61,6 @@
         </div>
       </form>
     </main>
+    <script src="./js/script.js"></script>
   </body>
 </html>
